@@ -3,8 +3,7 @@ Lo primero que he hecho ha sido crear la estructura para la aplicación Java. De
 Para compilar los programas (estando en el mismo direcotrio) ejecutaremos lo siguiente:  
 javac ./*.java  
 Para ejecutar la calculadora:  
-java com.ieseljust.edd.calc.Calcula num1 num2  
-Esto me ha dado error y no he podido continuar.  
+java com.ieseljust.edd.calc.Calcula 4 2 
 
 He hecho el build.xml.  
 He instalado el ant y he compilado con el siguiente comando:  
