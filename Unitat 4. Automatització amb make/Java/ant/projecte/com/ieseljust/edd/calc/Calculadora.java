@@ -1,4 +1,4 @@
-package com.ieseljust.edd.calc.Calculadora;
+package com.ieseljust.edd.calc;
 
 public class Calculadora {
 
