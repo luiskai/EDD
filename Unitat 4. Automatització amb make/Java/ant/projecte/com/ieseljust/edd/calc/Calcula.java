@@ -8,7 +8,7 @@ public class Calcula {
 
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("\nSintaxi incorrecta. Necessite dos números.");
+            System.out.println("\nSintaxi incorrecta. Necessite dos numeros.");
             System.exit(-1);
         }
 
