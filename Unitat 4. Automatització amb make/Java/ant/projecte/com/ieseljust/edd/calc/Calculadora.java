@@ -30,7 +30,7 @@ public class Calculadora {
     }
 
     public float multiplica(float op1, float op2){
-        // Fem els càlculs
+        // Fem els calculs
         float result=op1*op2;
 
         // Actualitzem els atributs de la classe
@@ -42,7 +42,7 @@ public class Calculadora {
     }
 
     public float divideix(float op1, float op2){
-        // Fem els càlculs
+        // Fem els calculs
         float result=op1/op2;
 
         // Actualitzem els atributs de la classe
