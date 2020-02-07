@@ -17,10 +17,10 @@ public class Calcula {
 
         Calculadora myCalc=new Calculadora();
 
-        System.out.println("La suma entre "+operand1+" i "+operand2+" és "+myCalc.suma(operand1, operand2));
-        System.out.println("La resta entre "+operand1+" i "+operand2+" és "+myCalc.resta(operand1, operand2));
-        System.out.println("La multiplicació entre "+operand1+" i "+operand2+" és "+myCalc.multiplica(operand1, operand2));
-        System.out.println("La divisió entre "+operand1+" i "+operand2+" és "+myCalc.divideix(operand1, operand2));
-        System.out.println("Última operació realitzada: "+myCalc.getLastOp()+"; Últim resultat: "+myCalc.getLastResult());
+        System.out.println("La suma entre "+operand1+" i "+operand2+" es "+myCalc.suma(operand1, operand2));
+        System.out.println("La resta entre "+operand1+" i "+operand2+" es "+myCalc.resta(operand1, operand2));
+        System.out.println("La multiplicacio entre "+operand1+" i "+operand2+" es "+myCalc.multiplica(operand1, operand2));
+        System.out.println("La divisio entre "+operand1+" i "+operand2+" es "+myCalc.divideix(operand1, operand2));
+        System.out.println("Ultima operacio realitzada: "+myCalc.getLastOp()+"; Ultim resultat: "+myCalc.getLastResult());
     }
 }
