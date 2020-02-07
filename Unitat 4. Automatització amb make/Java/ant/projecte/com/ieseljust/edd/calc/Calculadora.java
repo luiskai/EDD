@@ -52,5 +52,25 @@ public class Calculadora {
         // I finalment retornem els resultats
         return result;
     }
+    
+    public boolean MajorQue(float op1, float op2){
+        if (op1>op2) {
+            boolean result = true
+            this.lastResult=result;
+            this.lastOp="Divideix";
+        }
+    }
+    
+    public float Mitjana(float op1, float op2){
+        // Fem els calculs
+        float result=op1+op2/2;
+
+        // Actualitzem els atributs de la classe
+        this.lastResult=result;
+        this.lastOp="Mitjana";
+
+        // I finalment retornem els resultats
+        return result;
+    }
 
 }
