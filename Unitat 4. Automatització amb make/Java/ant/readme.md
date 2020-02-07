@@ -4,6 +4,10 @@ Para compilar los programas (estando en el mismo direcotrio) ejecutaremos lo sig
 javac ./*.java  
 Para ejecutar la calculadora:  
 java com.ieseljust.edd.calc.Calcula num1 num2  
-Aço m'ha donat error i no he pogut continuar.  
+Esto me ha dado error y no he podido continuar.  
 
-Després vaig crear el build.xml.
+He hecho el build.xml.  
+He instalado el ant y he compilado con el siguiente comando:  
+ant compile  
+Para la exclusión he hecho lo siguiente:  
+ant run -Darg0=3 -Darg1=4
