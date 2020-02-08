@@ -52,6 +52,16 @@ public class Calculadora {
         // I finalment retornem els resultats
         return result;
     }
+    
+    public float MajorQue(float op1, float op2){
+        if (op1>op2) {
+            return op1;
+        }
+        else{
+            return op2;
+        }
+    }
+    
     public float Mitjana(float op1, float op2){
         // Fem els calculs
         float mediana = op1+op2;
