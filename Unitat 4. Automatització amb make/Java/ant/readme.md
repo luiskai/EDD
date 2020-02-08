@@ -5,6 +5,34 @@ javac ./*.java
 Para ejecutar la calculadora:  
 java com.ieseljust.edd.calc.Calcula 4 2 
 
+Para la funcion Mitjana y MajorQue he introducido lo siguiente en Calculadora.java:  
+public float MajorQue(float op1, float op2){
+        if (op1>op2) {
+            return op1;
+        }
+        else{
+            return op2;
+        }
+    }
+    
+    public float Mitjana(float op1, float op2){
+        // Fem els calculs
+        float mediana = op1+op2;
+        float result=mediana/2;
+
+        // Actualitzem els atributs de la classe
+        this.lastResult=result;
+        this.lastOp="Mitjana";
+
+        // I finalment retornem els resultats
+        return result;
+    }
+
+Y lo siguiente en Calcula.java:  
+```
+System.out.println("El seguent numero es el mes gran: " + myCalc.MajorQue(operand1, operand2));  
+System.out.println("La mitjana de "+operand1+" i "+operand2+" es "+myCalc.Mitjana(operand1, operand2));  
+```
 He hecho el build.xml.  
 He instalado el ant y he compilado con el siguiente comando:  
 ant compile  
