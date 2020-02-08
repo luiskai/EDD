@@ -54,7 +54,8 @@ public class Calculadora {
     }
     public float Mitjana(float op1, float op2){
         // Fem els calculs
-        float result=op1+op2/2;
+        float mediana = op1+op2;
+        float result=mediana/2;
 
         // Actualitzem els atributs de la classe
         this.lastResult=result;
